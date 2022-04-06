@@ -10,11 +10,11 @@ echo " OpenVPN Access Server With Unlimited License BY ensaryusuf"
 yum update -y
 yum install wget -y
 yum install net-tools -y
-wget https://vpn.quoapp.xyz/cdn/openvpn-as-2.5-CentOS7.x86_64.rpm
+wget https://seskit.com/vpn/openvpn-as_2.5/CentOS/openvpn-as-2.5-CentOS7.x86_64.rpm
 rpm -i openvpn-as-2.5-CentOS7.x86_64.rpm
 cd /usr/local/openvpn_as/lib/python2.7/site-packages/
 rm pyovpn-2.0-py2.7.egg
-wget https://vpn.quoapp.xyz/cdn/pyovpn-2.0-py2.7.egg
+wget https://seskit.com/vpn/openvpn-as_2.5/crack/pyovpn-2.0-py2.7.egg
 cd /usr/local/openvpn_as/bin
 ./ovpn-init
 
